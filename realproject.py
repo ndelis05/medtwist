@@ -9,7 +9,7 @@ from openai import OpenAI
 
 import time
 
-openai.api_key = st.secrets["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"]
+openai.api_key = st.secrets["password"]
 client = OpenAI()
 
 def transcribe_audio(audio_file_path):
